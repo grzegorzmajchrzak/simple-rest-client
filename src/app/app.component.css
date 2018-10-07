@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  min-width: 100%;
+  min-height: 500px;
+}
+
+.main-menu {
+  border: 1px solid;
+  padding: 5px;
+  width: 200px;
+}
+
+.main-center {
+  border: 1px solid;
+  padding: 5px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+}
+

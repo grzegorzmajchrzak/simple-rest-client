@@ -1,0 +1,10 @@
+Persons:
+<ul class="persons">
+  <li *ngFor="let person of persons$ | async">
+    <app-person-view [person]="person"></app-person-view>
+    <a class="action-button" routerLink="{{'/update/' + person.id}}">Update</a>
+    <a class="action-button" routerLink="{{'/delete/' + person.id}}">Delete</a>
+  </li>
+</ul>
+
+
